@@ -2,13 +2,13 @@
 
 * Create a virtual environment: `virtualenv env`
 * Activate: `source env/bin/activate`
+* Install uwsgi in virtualenv env: `pip install uwsgi`
 
 
 # Run the simplest possible wsgi app:
 
 (see `wsgi.py`)
 
-* Install uwsgi in virtualenv env: `pip install uwsgi`
 * Run app: `uwsgi --http 127.0.0.1:9000 -w wsgi:app`
 
 
